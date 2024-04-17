@@ -1,0 +1,3 @@
+services:
+  qatester2:
+    command: npm run start:debug

@@ -1,0 +1,4 @@
+{{- include "adp-helm-library.cluster-ip-service" (list . "qatester2.cluster-ip-service") -}}
+{{- define "qatester2.cluster-ip-service" -}}
+{{- end -}}
+

@@ -1,0 +1,10 @@
+services:
+  qatester2:
+    build:
+      context: .
+      target: production
+    image: qatester2
+    container_name: qatester2
+    environment:
+      APPINSIGHTS_CLOUDROLE: qatester2-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}

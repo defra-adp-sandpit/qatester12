@@ -1,0 +1,8 @@
+{{- include "adp-helm-library.deployment" (list . "qatester2.deployment") -}}
+{{- define "qatester2.deployment" -}}
+spec:
+  template:
+    spec:
+      containers:
+      - {{ include "adp-helm-library.container" (list . "qatester2.container") }}
+{{- end -}}

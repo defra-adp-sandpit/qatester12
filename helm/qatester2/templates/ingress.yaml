@@ -1,0 +1,3 @@
+{{- include "adp-helm-library.azure-ingress" (list . "qatester2.ingress") -}}
+{{- define "qatester2.ingress" -}}
+{{- end -}}
